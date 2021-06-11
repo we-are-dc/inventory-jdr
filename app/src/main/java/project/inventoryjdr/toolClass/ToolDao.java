@@ -11,12 +11,6 @@ public interface ToolDao {
     @Query("SELECT * FROM tool")
     List<Tool> getAll();
 
-    @Query("SELECT * FROM tool WHERE toolId IN (:toolIds)")
-    List<Tool> loadAllByIds(int[] toolIds);
-
-    @Query("SELECT * FROM tool WHERE toolId = :toolId")
-    Tool loadById(int toolId);
-
     @Insert
     void insertAll(Tool... tools);
 
