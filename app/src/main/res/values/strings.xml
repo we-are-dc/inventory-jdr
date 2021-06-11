@@ -3,4 +3,7 @@
     <string name="title_home">Personnages</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="name_character">Nom du personnage</string>
+    <string name="surname_character">Prénom du personnage</string>
+    <string name="max_pods">Encombrement max</string>
 </resources>
