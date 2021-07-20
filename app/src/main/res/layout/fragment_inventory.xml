@@ -73,32 +73,136 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/progressBar" />
 
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="0dp"
+    <LinearLayout
+        android:id="@+id/Item1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/rounded_square_textview"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="64dp"
-        android:background="@drawable/rounded_square_textview"
-        android:gravity="center"
-        android:textColor="#fff"
-        android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+        app:layout_constraintTop_toBottomOf="@+id/progressBar">
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="0dp"
+        <TextView
+            android:id="@+id/Pods1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="3"
+            android:layout_marginBottom="10dp"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/Item_Name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#6202EE" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Item2"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/rounded_square_textview"
         android:layout_marginTop="64dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:background="@drawable/rounded_square_textview"
-        android:gravity="center"
-        android:textColor="#fff"
-        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+        app:layout_constraintTop_toBottomOf="@+id/progressBar">
+
+        <TextView
+            android:id="@+id/Pods2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="3"
+            android:layout_marginBottom="10dp"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/Item_Name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#6202EE" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Item3"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/rounded_square_textview"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Item1">
+
+        <TextView
+            android:id="@+id/Pods3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="3"
+            android:layout_marginBottom="10dp"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/Item_Name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#6202EE" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Item4"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/rounded_square_textview"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Item2">
+
+        <TextView
+            android:id="@+id/Pods4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="3"
+            android:layout_marginBottom="10dp"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/Item_Name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#6202EE" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
