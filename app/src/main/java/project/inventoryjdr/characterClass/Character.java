@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey;
 
 @Entity
 public class Character {
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true)
     public long characterId;
 
     @ColumnInfo(name = "first_name")
